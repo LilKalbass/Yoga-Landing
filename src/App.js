@@ -14,7 +14,10 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 const App = () => {
-  return <div className='overflow-hidden'>react app</div>;
+  return <div className='overflow-hidden'>
+    <Hero/>
+    <div className = "min-h-[2000px]"></div>
+  </div>;
 };
 
 export default App;
