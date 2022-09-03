@@ -7,7 +7,7 @@ import Header from "./Header";
 
 const Hero = () => {
   return(
-      <section className = "min-h-[618px] lg:min-h-[815px] pt-10 lg:bg-circle lg:bg-no-repeat lg:bg-right-top">
+      <section className = "min-h-[620px] lg:min-h-[815px] pt-10 lg:bg-circle lg:bg-no-repeat lg:bg-right-top">
           <div className= "container mx-auto">
               <Header/>
               <div className = "flex flex-col items-center lg:flex-row lg:items-start pt-24 lg:pt-20">
@@ -20,7 +20,7 @@ const Hero = () => {
                           Counteract the stress of modern life by becoming more mindful and compassionate.
                       </p>
                       <div className = "space-x-4 mb-12">
-                          <button className = "btn btn-sm lg:btn-lg btn-orange">Get started
+                          <button className = "btn btn-sm lg:btn-lg btn-orange ">Get started
                           </button>
                           <button className = "btn btn-sm lg:btn-lg text-heading bg-transparent border
                           border-stroke-1 px-5 hover:bg-stroke-3 transition">Learn more
