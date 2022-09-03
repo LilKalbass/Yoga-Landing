@@ -29,15 +29,15 @@ const Facts = () => {
               );
             })}
           </div>
-            <div className = "flex-1 -order-1 lg:order-none">
-                <div className = "flex flex-col justify-center items-center h-full lg:pl-24 text-center">
+            <div className = "flex-1 -order-1 lg:order-none ">
+                <div className = "flex flex-col justify-center items-center h-full lg:pl-24 text-center ">
                     <h2 className = "h2 mb-12 max-w-[295px] md:max-w-none">
                         Relax `n` Enjoy a Personalized Day Yoga With Us
                     </h2>
-                    <div className = "mb-2">
+                    <div className = "mb-2 ">
                         <img src={Image} alt='signature'/>
                     </div>
-                    <div className = "text-lg mb-6 font-bold text-heading">
+                    <div className = "text-lg mb-6 font-bold text-heading pb-2">
                         Ann Miller <span className = "text-base text-paragraph font-normal">/Founder</span>
                     </div>
                 </div>
@@ -49,21 +49,3 @@ const Facts = () => {
 };
 
 export default Facts;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
