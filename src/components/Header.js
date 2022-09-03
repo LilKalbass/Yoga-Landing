@@ -15,7 +15,7 @@ const Header = () => {
   });
 
   return (
-      <header className = {`${header ? "top-0" : "top-5 lg:top-8"} fixed bg-white w-full max-w-[91vw] lg:max-w-[1170px]
+      <header className = {`${header ? "top-0" : "top-5 lg:top-8"} fixed bg-white w-full max-w-[90.25vw] lg:max-w-[1170px]
       mx-auto rounded-md h-20  shadow-primary px-6 lg:px-12 z-20 transition-all duration-500
       flex items-center justify-between`}>
           <div className = "flex items-center">
