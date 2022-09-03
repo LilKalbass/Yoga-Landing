@@ -9,7 +9,7 @@ const Facts = () => {
   return (
       <section className = "section-sm lg:section-lg">
         <div className = "container mx-auto flex flex-col lg:flex-row lg:gap-x-7">
-          <div className = "flex flex-1 flex-wrap gap-x-[5%] gap-y-9">
+          <div className = "flex flex-1 flex-wrap gap-x-[10%] gap-y-9">
             {facts.map((item,index) => {
               const {startNumber, endNumber, unit, title, desc} = item;
               return (
@@ -30,7 +30,7 @@ const Facts = () => {
             })}
           </div>
             <div className = "flex-1 -order-1 lg:order-none">
-                <div className = "flex flex-col justify-center h-full lg:pl-24">
+                <div className = "flex flex-col justify-center items-center h-full lg:pl-24 text-center">
                     <h2 className = "h2 mb-12 max-w-[295px] md:max-w-none">
                         Relax `n` Enjoy a Personalized Day Yoga With Us
                     </h2>
