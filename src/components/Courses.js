@@ -49,7 +49,7 @@ const Courses = () => {
                   );
               })}
           </div>
-        {/*  brn*/}
+        {/*  btn*/}
           <div className = "flex justify-center">
             <button className = "btn btn-sm btn-orange">Browse all</button>
           </div>

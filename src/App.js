@@ -20,6 +20,9 @@ const App = () => {
     <Facts/>
     <Features/>
     <Courses/>
+    <Pricing/>
+    <Newsletter/>
+    <Contact/>
     <div className = "min-h-[2000px]"></div>
   </div>;
 };
