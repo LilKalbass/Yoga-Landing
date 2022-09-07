@@ -1,8 +1,8 @@
 import React from 'react';
 
-// import aos
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
-// import components
 import Hero from './components/Hero';
 import Cards from './components/Cards';
 import Facts from './components/Facts';
@@ -14,6 +14,10 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 const App = () => {
+  Aos.init ({
+    duration: 1800,
+    offset: 100
+  });
   return <div className='overflow-hidden'>
     <Hero/>
     <Cards/>
@@ -23,7 +27,7 @@ const App = () => {
     <Pricing/>
     <Newsletter/>
     <Contact/>
-    <div className = "min-h-[2000px]"></div>
+    <Footer/>
   </div>;
 };
 

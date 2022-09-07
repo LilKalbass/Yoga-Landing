@@ -9,8 +9,10 @@ const Pricing = () => {
         <div className = "container mx-auto">
           {/* text*/}
           <div className = "text-center mb-9 lg:mb-12">
-            <h2 className = "h2 mb-3 lg:mb-6">Pick a Pricing plan</h2>
-            <p className = "max-w-[400px] mx-auto">
+            <h2 className = "h2 mb-3 lg:mb-6"
+                data-aos = "fade-up" data-aos-delay = "600">Pick a Pricing plan</h2>
+            <p className = "max-w-[400px] mx-auto"
+               data-aos = "fade-up" data-aos-delay = "700">
               Pick a pricing plan and get started your journey with us.
               Build your body and mind
             </p>
@@ -18,13 +20,14 @@ const Pricing = () => {
         {/*  cards*/}
           <div className = "flex flex-col lg:flex-row mx-auto items-center gap-y-7 lg:gap-x-8">
               {pricing.map((card, currentIndex) => {
-                  const {title, price, list, buttonIcon, buttonText} = card;
+                  const {title, price, list, buttonIcon, buttonText, delay} = card;
                   return (
                       <div
                           key={currentIndex}
                           onClick={() => setIndex(currentIndex)}
                           className = "bg-white rounded-md w-full max-w-sm
-                          lg:min-h-[680px] h-full cursor-pointer relative">
+                          lg:min-h-[680px] h-full cursor-pointer relative"
+                          data-aos = "fade-up" data-aos-delay = {delay} data-aos-offset = "200">
                           {/*   card top*/}
                           <div className = {`${index === currentIndex ? 
                                "bg-orange text-white" : "bg-white text-heading"} 

@@ -10,8 +10,10 @@ const Courses = () => {
         <div className = "container mx-auto">
         {/*  text*/}
           <div className = "text-center mb-16 lg:mb-32">
-            <h2 className = "h2 mb-2 lg:mb-4">Popular Courses</h2>
-            <p className = "max-w-lg mx-auto">
+            <h2 className = "h2 mb-2 lg:mb-4"
+                data-aos = "fade-down" data-aos-delay = "200">Popular Courses</h2>
+            <p className = "max-w-lg mx-auto"
+               data-aos = "fade-down" data-aos-delay = "300">
                 Practice anywhere, anytime. Explore a new way to exercise and learn more about yourself.
                 We`re providin` the best
             </p>
@@ -23,7 +25,8 @@ const Courses = () => {
                   return (
                       <div key={index}
                            className = "w-full bg-white hover:shadow-primary max-w-[368px]
-                           px-4  pb-6 lg:px-7 lg:pb-9 flex flex-col rounded-xl mx-auto transition">
+                           px-4  pb-6 lg:px-7 lg:pb-9 flex flex-col rounded-xl mx-auto transition"
+                           data-aos = "fade-up" data-aos-delay = {delay}>
                           <div className = "-mt-9 lg:-mt-12 mb-6 lg:mb-8">
                               <img src={image}/>
                           </div>
@@ -51,7 +54,8 @@ const Courses = () => {
           </div>
         {/*  btn*/}
           <div className = "flex justify-center">
-            <button className = "btn btn-sm btn-orange">Browse all</button>
+            <button className = "btn btn-sm btn-orange"
+                    data-aos = "fade-up" data-aos-delay = "600">Browse all</button>
           </div>
         </div>
       </section>

@@ -6,10 +6,12 @@ import cardImage3 from '../assets/img/cards/card-3.png'
 
 const Cards = () => {
   return (
-      <section className = "bg-cardsBg min-h-0 min-h-[256px] pb-14 lg:-mt-24">
+      <section className = "bg-cardsBg min-h-0 min-h-[256px] pb-14 lg:-mt-24"
+               data-aos = "fade-up" data-aos-delay = "800" data-aos-duration = "1200">
         <div className = "container mx-auto flex flex-col lg:flex-row gap-x-8">
           <div className = "flex-1 flex gap-x-4 lg:gap-x-8 -mt-8 z-10 lg:-mt-20 mx-auto">
-            <div className = "bg-white w-full max-w-[282px] p-3.5 lg:p-7 shadow-2xl rounded-md max-h-[282px]">
+            <div className = "bg-white w-full max-w-[282px] p-3.5 lg:p-7 shadow-2xl rounded-md max-h-[282px]"
+                 data-aos = "fade-up" data-aos-delay = "400">
                 <div className = "flex items-center mb-4 lg:mb-6">
                     <h4 className = "text-lg lg:text-2xl
                     font-bold text-heading mr-8">Make Your Own Plan For Yoga.</h4>
@@ -19,7 +21,8 @@ const Cards = () => {
                     <img src = {cardImage1} alt='cardImg1'/>
                 </div>
             </div>
-              <div className = "bg-white w-full max-w-[282px] p-3.5 lg:p-7 shadow-2xl rounded-md max-h-[282px]">
+              <div className = "bg-white w-full max-w-[282px] p-3.5 lg:p-7 shadow-2xl rounded-md max-h-[282px]"
+                   data-aos = "fade-up" data-aos-delay = "600">
                   <div className = "flex items-center mb-4 lg:mb-6">
                       <h4 className = "text-lg lg:text-2xl
                       font-bold text-heading mr-8">Make Your Own Plan For Yoga.</h4>
@@ -31,7 +34,8 @@ const Cards = () => {
               </div>
           </div>
             <div className = "bg-white w-full max-w-xl mx-auto p-3.5
-            lg:p-7 mt-4 lg:-mt-20 z-10 shadow-2xl rounded-md flex justify-between items-start">
+            lg:p-7 mt-4 lg:-mt-20 z-10 shadow-2xl rounded-md flex justify-between items-start"
+                 data-aos = "fade-up" data-aos-delay = "800">
                 <div className = "max-w-[240px]">
                     <div className = "flex items-center mb-3 lg:mb-6 lg:leading-7 font-bold text-heading mr-8">
                         <h4 className = "text-lg lg:text-2xl">Every-Day Open Master Classes.</h4>
