@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/yoga-landing/static/css/main.7daf952f.css",
+    "main.js": "/yoga-landing/static/js/main.08397f89.js",
+    "static/media/video.png": "/yoga-landing/static/media/video.b3bbf1eea77a9690f5f5.png",
+    "static/media/guy.png": "/yoga-landing/static/media/guy.d0cb07eaf07a283fecbe.png",
+    "static/media/bg.png": "/yoga-landing/static/media/bg.2d7956c33191c70f72c4.png",
+    "static/media/course-2.png": "/yoga-landing/static/media/course-2.8d93173f35eb1ff0f3ed.png",
+    "static/media/course-3.png": "/yoga-landing/static/media/course-3.f2de3550ce03fcc1ee58.png",
+    "static/media/card-3.png": "/yoga-landing/static/media/card-3.54e851bdccbab217fbf7.png",
+    "static/media/course-1.png": "/yoga-landing/static/media/course-1.7819192a1e01716c806b.png",
+    "static/media/card-2.png": "/yoga-landing/static/media/card-2.0e18df78817046ff7b7d.png",
+    "static/media/card-1.png": "/yoga-landing/static/media/card-1.c79b2103bcdbeb965ec8.png",
+    "index.html": "/yoga-landing/index.html",
+    "main.7daf952f.css.map": "/yoga-landing/static/css/main.7daf952f.css.map",
+    "main.08397f89.js.map": "/yoga-landing/static/js/main.08397f89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7daf952f.css",
+    "static/js/main.08397f89.js"
+  ]
+}
